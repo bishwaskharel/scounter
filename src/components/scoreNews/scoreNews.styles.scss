@@ -1,0 +1,30 @@
+.scoreNewsStart {
+  padding: 20px 0px;
+}
+
+.scoreNews {
+  padding-top: 50px;
+  background-color: rgb(107, 158, 49);
+  border-radius: 180px 0px 0px 180px;
+
+  .button {
+    color: rgb(107, 158, 49);
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 5px 0px rgba(107, 48, 48, 0.2);
+    justify-content: center;
+    width: 7rem;
+    font-size: 1rem;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    border: none;
+  }
+
+  .scoreNewsBox {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+  }
+}

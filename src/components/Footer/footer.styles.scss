@@ -1,0 +1,28 @@
+.headFooter {
+  background-color: rgb(107, 158, 49);
+}
+
+.footer {
+  min-height: 10vh;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+  img {
+    height: 40px;
+  }
+
+  ul {
+    border-style: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    li {
+      padding: 0rem 2rem;
+      color: white;
+    }
+  }
+}

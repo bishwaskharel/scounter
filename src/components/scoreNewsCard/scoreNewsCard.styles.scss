@@ -1,0 +1,42 @@
+.scoreFlex {
+  padding: 50px 0px;
+}
+.scoreBox {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 30px 0px;
+  width: 200px;
+  border-radius: 20px;
+  height: 180px;
+  box-shadow: 2px 3px 40px -18px rgba(0, 0, 0, 1);
+  .scoreBoxFlags {
+    display: flex;
+    flex-flow: row;
+    justify-items: space-between;
+
+    .scoreBoxFlagsPer {
+      width: 30px;
+      padding: 0px 20px;
+    }
+  }
+
+  .scoreBoxScores {
+    padding: 30px 0px;
+    .scoreBoxRuns {
+      padding: 10px 0px;
+    }
+
+    .scoreBoxOvers {
+      padding: 5px 0px;
+      font-size: 10px;
+    }
+  }
+  button {
+    size: 10px;
+    background-color: darkgoldenrod;
+  }
+}
