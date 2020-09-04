@@ -1,0 +1,32 @@
+.blogPageHead {
+  background-color: white;
+  border-radius: 2rem;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    width: 95%;
+    padding: 2rem 0rem;
+    font-size: 2rem;
+    color: black;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 2px 3px 40px -18px rgba(0, 0, 0, 1);
+  }
+}
+.finalNews {
+  h1 {
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: 2rem 0rem;
+    color: white;
+    width: 95%;
+    margin: auto;
+  }
+}

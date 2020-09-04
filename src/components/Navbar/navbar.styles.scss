@@ -11,6 +11,8 @@ nav {
     list-style: none;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: black;
 
     .button-up {
       border-style: none;
@@ -23,6 +25,7 @@ nav {
 
     li {
       padding: 0rem 2rem;
+      
     }
   }
 }
