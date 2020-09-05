@@ -28,3 +28,10 @@
     margin: auto;
   }
 }
+
+@media all and (max-width:500px){
+  .scoreNewsBox{
+    display: flex;
+      flex-flow: column;
+  }
+}

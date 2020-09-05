@@ -15,7 +15,7 @@ const ScoreNewsCard = (props) => {
           <div className="scoreBoxRuns">{props.cScore}</div>
           <p className="scoreBoxOvers">{props.cOver}</p>
         </div>
-        <button class="button">Live Score</button>
+        <button className="button" >Live Score</button>
       </div>
     </div>
   );

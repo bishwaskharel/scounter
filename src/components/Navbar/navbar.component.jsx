@@ -10,16 +10,18 @@ const Navbar = () => {
         <Link to="/">
           <img className="logo" src={logo} height="40rem" alt="" />
         </Link>
-        <ul> 
-          <li>
-            <Link to="/BlogPage">Blogs</Link>
-          </li>
+        <ul>
+          <Link to="/BlogPage">
+            <li>Blogs</li>
+          </Link>
 
-          <li><Link to="/AboutUsPage">About us</Link></li>
+          
+            <Link to="/AboutUsPage"><li>About Us</li></Link>
+          
           <li>
-            <button class="button-up">Sign In</button>
+            <button className="button-up">Register</button>
           </li>
-        </ul>
+        </ul> 
       </nav>
     </>
   );

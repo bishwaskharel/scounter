@@ -8,7 +8,9 @@ const UpperBody = () => {
     <>
       <div className="upperBody">
         <img className="bodyimage" src={busy} alt="" />
-        <Forms />
+        <div className="forms">
+          <Forms />
+        </div>
       </div>
     </>
   );

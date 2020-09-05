@@ -1,0 +1,23 @@
+.blogPage {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  justify-content: space-between;
+  
+}
+
+.blogPageNews {
+  background-color: #6b9e31;
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  margin: 0rem 3rem 0rem 0rem;
+}
+
+.blogPageInfo {
+  h1 {
+    color: black;
+    font-weight: bold;
+  }
+}

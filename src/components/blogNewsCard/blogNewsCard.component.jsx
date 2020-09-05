@@ -10,9 +10,9 @@ function BlogNewsCard(props) {
             <img src={props.newsImg} alt="" />
           </div>
           <div className="blogBoxblogs">{props.blog}</div>
-          <button class="button">
-            <Link to="/BlogPage">Read More</Link>
-          </button>
+          <Link to="/NewsPage1">
+            <button class="button">Read More</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -10,14 +10,14 @@ const ScoreNews = () => {
         <div className="scoreNews">
           <button className="button">Score News</button>
           <div className="scoreNewsBox">
-            {ScoreData.map((val) => {
+            {ScoreData.filter((ScoreData, idx) => idx< 3).map((val) => {
               return(
               <ScoreNewsCard
                 flag1={val.flag1}
                 flag2={val.flag2}
                 cScore={val.cScore}
                 cOver={val.cOver}
-              />
+              /> 
               )
             })}
           </div>
