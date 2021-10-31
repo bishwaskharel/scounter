@@ -6,6 +6,7 @@ const UpperBody = () => {
   return (
     <>
       <div>
+  
         <ScoreNews />
         <BlogNews />
       </div>

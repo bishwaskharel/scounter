@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./form.styles.scss";
 import logo from "./images/logo.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Form = () => {
   const [textValue, setTextValue] = useState("");
@@ -43,10 +43,13 @@ const Form = () => {
             />
 
             <div className="button">
-              <Link to="/GameApp"><button className="button-down">Sign In</button></Link>
+              <Link to="/GameApp">
+                <button className="button-down">Sign In</button>
+              </Link>
               <button className="button-down-register">Register</button>
             </div>
           </div>
+          <h1>For IND Vs Nz Click on About US</h1>
         </div>
       </form>
     </>

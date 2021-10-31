@@ -7,7 +7,9 @@ const UpperBody = () => {
   return (
     <>
       <div className="upperBody">
-        <img className="bodyimage" src={busy} alt="" />
+        <div>
+          <img className="bodyimage" src={busy} alt="" />
+        </div>
         <div className="forms">
           <Forms />
         </div>
