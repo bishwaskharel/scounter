@@ -2,11 +2,11 @@ import React from "react";
 import "./AboutUsPage.styles.scss";
 function AboutUsPage() {
   return (
-    <div className="aboutUsPage">
+    <div className="aboutUsPage" style={{ height: "100vh" }}>
       <iframe
         src="https://embedstream.me/india-vs-new-zealand-stream-2"
         width="100%"
-        height="290vh"
+        height="600vh"
         scrolling="no"
         frameborder="0"
         allowfullscreen
