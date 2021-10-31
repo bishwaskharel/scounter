@@ -1,9 +1,10 @@
 .headFooter {
   background-color: #6b9e31;
-  margin-top: 5rem;
-
-  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
   width: 100%;
+
 }
 
 .footer {
