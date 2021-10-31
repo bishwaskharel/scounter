@@ -6,8 +6,6 @@ function AboutUsPage() {
       <iframe
         title="aboutUsPage"
         src="https://embedstream.me/india-vs-new-zealand-stream-2"
-        width="100%"
-        height="80%"
         scrolling="no"
         frameborder="0"
         allowfullscreen
@@ -18,7 +16,8 @@ function AboutUsPage() {
           overflowx: "hidden",
           overflowy: "hidden",
           height: "100%",
-          width: "100%",
+          width: "90%",
+          margin: "0 auto",
           position: "absolute",
           top: "0%",
           left: "0px",
