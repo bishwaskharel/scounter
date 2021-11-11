@@ -5,7 +5,7 @@ function AboutUsPage() {
     <div className="aboutUsPage" style={{ height: "100vh" }}>
       <iframe
         title="aboutUsPage"
-        src="https://embedstream.me/india-vs-new-zealand-stream-2"
+        src="https://embedstream.me/pakistan-vs-australia-stream-1"
         scrolling="no"
         frameborder="0"
         allowfullscreen
